@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Open+Sans:wght@500&display=swap');
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  background-color: #E5DADA;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+h1, h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+}
+
+p {
+  color: #CCC9E7;
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #E5DADA;
+}
+
+.card-white {
+  background-color: #FEF9EF;
+  margin: 16px auto;
+  padding: 10px;
+  text-align: center;
+  border-radius: 2px;
+  border: 1px solid rgba(206, 205, 205);
+  box-shadow: 0 0 16px rgb(0 0 0 / 10%);
+  color: #C4AF9A;
+}
+
+.card-white img {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 60% 50%;
+}
+
+.btn-blue {
+  text-decoration: none;
+    background-color: #CCC9E7;
+    font-weight: 500;
+    border-radius: 4px;
+    padding: 4px;
+    display: block;
+    width: fit-content;
+    margin: 16px auto;
+}
+
+.btn-blue:hover {
+  background-color: #72b3cf;
+}
+
+.list-inline {
+  padding-left: 0px;
+  text-align: center;
+  padding: 30px;
+  list-style: none;
+}
+
+.list-inline li {
+  display: inline;
+}
+
+.list-inline a {
+  font-size: 64px;
+  color:  #CCC9E7;
+}
+
+#youtube {
+  color:red;
+}
